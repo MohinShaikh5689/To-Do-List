@@ -1,0 +1,125 @@
+#b{
+    transition: 0.5s ease-in-out;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+body{
+    transition: 0.5s ease-in-out;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+img{
+    width:12px;
+}
+.todo{
+    border: 1px solid white;
+    background-color: white;
+    margin-left:30%;
+    margin-right:30%;
+    margin-top:10%;
+    border-radius: 10px;
+}
+
+.todo input{
+    width: 300px;
+    padding: 10px;
+    border:1px solid black;
+    border-radius: 10px;
+
+}
+
+.button{
+    width: 100px;
+    padding: 10px;
+    border:none;
+    border-radius: 10px;
+}
+
+.input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 18%;
+}
+
+
+
+
+li{
+    list-style: none;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+li button{
+    width:60px;
+    padding:5px;
+    border-radius:20px;
+    border:none;
+}
+
+
+.task-checked p{
+    text-decoration: line-through;
+    color: white;
+}
+
+
+@media only screen and (max-width: 600px){
+    .todo{
+        border: 1px solid white;
+        background-color: white;
+        margin-left:23%;
+        margin-right:25%;
+        margin-top:10%;
+        border-radius: 10px;
+    }
+    
+    .todo input{
+        width: 100px;
+        padding: 1px;
+        border:1px solid black;
+        border-radius: 10px;
+    
+    }
+    
+    .button{
+        width: 50px;
+        padding: 1px;
+        border:none;
+        border-radius: 10px;
+    }
+    
+    .input{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 18%;
+    }
+    
+    
+    
+    
+    li{
+        list-style: none;
+        margin-left: 10%;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    
+    li button{
+        width:60px;
+        padding:5px;
+        border-radius:20px;
+        border:none;
+    }
+    
+}
