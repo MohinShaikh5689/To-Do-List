@@ -1,5 +1,3 @@
-
-
 const a = document.getElementById('a');
 const btn = document.getElementById('b');
 const todo = document.getElementById('to')
@@ -79,6 +77,7 @@ let Task = document.getElementById("task-list");
             task.remove();
             
           };
-        function Clear(){
+
+          function Clear(){
              Task.innerHTML="";
           }
