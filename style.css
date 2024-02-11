@@ -40,6 +40,13 @@ img{
     border-radius: 10px;
 }
 
+.button1{
+    width: 100px;
+    padding: 10px;
+    border:none;
+    border-radius: 10px;
+}
+
 .input{
     margin-top: 20px;
     margin-bottom: 20px;
