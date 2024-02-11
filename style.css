@@ -37,7 +37,7 @@ img{
 }
 
 .button{
-    width: 100px;
+    width: 80px;
     padding: 10px;
     border:none;
     border-radius: 10px;
@@ -58,6 +58,7 @@ li{
     justify-content: space-around;
 
 }
+
 
 li button{
     width:60px;
@@ -88,13 +89,14 @@ li button{
         padding: 5px;
         border:1px solid black;
         border-radius: 5px;
-        margin-left: 8%;
+        margin-left: 3%;
 
     
     }
     
     .button{
-        width: 50px;
+        width: 60px;
+        
         padding: 5px;
         border:none;
         border-radius: 10px;
