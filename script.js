@@ -79,3 +79,6 @@ let Task = document.getElementById("task-list");
             task.remove();
             
           };
+        function Clear(){
+             Task.innerHTML="";
+          }
