@@ -40,7 +40,7 @@ let Task = document.getElementById("task-list");
 
         function submit(){
             if (Input.value == ""){
-                alert("enter something");
+                alert("BSDK kuch to dal 🗿");
             }
 
             else{
